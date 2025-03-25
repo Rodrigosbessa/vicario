@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vicario</title>
+    <link rel="stylesheet" href="Css/style.css">
+    <!--Fonte de Letra-->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <!--Ícones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+    <h1><a href="home.html" class="title">Vicario</a></h1>
+    <nav class="nav_em">
+        <div class="dropdown">
+            <a class="dropbtn">Ementas ▼</a>
+            <div class="dropdown-content">
+                <a href="massas.html">Massas</a>
+                <a href="pizzas.html">Pizzas</a>
+                <a href="carnes.html">Carnes</a>
+                <a href="entradas.html">Entradas</a>
+                <a href="sobremesas.html">Sobremesas</a>
+                <a href="bebidas.html">Bebidas</a>
+            </div>
+        </div>
+
+        <a href="about.html">Sobre Nós</a>
+        <a href="pedidotakeaway.html"><i class="fa fa-shopping-cart icon"></i></a>
+        <a href="perfil.html"><i class="fa fa-user-o icon_em"></i></a>
+    </nav>
+</header>
+<div class="container">
+        <h1 class="titulo">Carnes</h1>
+
+        <div class="direita">
+            <img src="images/Picanha.png" alt="picanha">
+            <div class="card-content">
+                <h2>Picanha</h2>
+                <p>Corte nobre e suculento, servido no ponto ideal para<br> destacar o sabor único, com um toque de tradição<br> portuguesa.</p>
+                <p class="price">Meia Dose: 17,00€<br>1 Dose: 28,00€</p>
+                <label for="popup3" class="botao">Adicionar ao pedido</label>
+            </div>
+        </div>
+
+        <div class="esquerda">
+            <img src="images/maturado.png" alt="Costeletão">
+            <div class="card-content">
+                <h2>Costeletão maturado</h2>
+                <p class="desc">Carne premium, maturada para intensificar o sabor e<br> garantir uma textura inigualável, ideal para ocasiões<br> especiais.</p>
+                <p class="price">Meia Dose: 25,00€<br>1 Dose: 45,00€</p>
+                <label for="popup3" class="botao">Adicionar ao pedido</label>
+            </div>
+        </div>
+
+        <div class="direita">
+            <img src="images/entrecosto.png" alt="entrecosto">
+            <div class="card-content">
+                <h2>Entrecosto</h2>
+                <p>Carne macia e caramelizada na perfeição, com um<br> equilíbrio entre textura e sabor intenso, ideal para<br> amantes de grelhados.</p>
+                <p class="price">Meia Dose: 15,00€<br>1 Dose: 25,00€</p>
+                <label for="popup3" class="botao">Adicionar ao pedido</label>
+            </div>
+        </div>
+
+        <div class="esquerda">
+            <img src="images/fraldinha.png" alt="fraldinha">
+            <div class="card-content">
+                <h2>Fraldinha</h2>
+                <p class="desc">Corte clássico e tenro, conhecido pelo seu sabor<br> marcante e pela textura única, perfeito para uma<br> experiência autêntica.</p>
+                <p class="price">Meia Dose: 16,00€<br>1 Dose: 27,00€</p>
+                <label for="popup3" class="botao">Adicionar ao pedido</label>
+            </div>
+        </div>
+    </div>
+    <!-- Popup -->
+    <input type="checkbox" id="popup3" class="popup-checkbox">
+    <div class="popup-overlay">
+        <div class="popup-content">
+            <p class="negrito">Aviso</p>
+            <p class="desc">Para poder realizar um pedido Takeaway, é<br>necessário ter uma conta iniciada!</p>
+            <label for="popup3" class="close-btn">Fechar</label>
+        </div>
+    </div>
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>Vicario</h3>
+            <div class="social-icon">
+                <a href="https://www.instagram.com/instagram/" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.facebook.com/Cristiano?locale=ms_MY" target="_blank"><i class="fa fa-facebook"></i></a>
+            </div>
+        </div>
+        <div class="footer-section">
+            <h3>Categorias</h3>
+            <div class="categories-grid">
+                <ul class="categories-column">
+                    <li><a href="massas.html">Massas</a></li>
+                    <li><a href="pizzas.html">Pizzas</a></li>
+                    <li><a href="carnes.html">Carnes</a></li>
+                </ul>
+                <ul class="categories-column">
+                    <li><a href="entradas.html">Entradas</a></li>
+                    <li><a href="sobremesas.html">Sobremesas</a></li>
+                    <li><a href="bebidas.html">Bebidas</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-section">
+            <h3>Localização e Contacto</h3>
+            <p>Rua das Flores, Porto</p>
+            <p>224838743</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

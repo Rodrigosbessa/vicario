@@ -1,0 +1,16 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    
+    <servlet>
+        <servlet-name>PrimeiraServlet</servlet-name>
+        <servlet-class>br.com.code.PrimeiraServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PrimeiraServlet</servlet-name>
+        <url-pattern></url-pattern>
+    </servlet-mapping></s>
+</web-app>
+
